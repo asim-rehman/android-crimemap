@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_settings"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="uk.asimrehman.crimemap.SettingsActivity"
+    >
+
+
+    <include layout="@layout/shared_toolbar" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/settingsRelativeLayoutOne"
+        android:layout_marginTop="50dp"
+        android:padding="10dp"
+        android:layout_below="@+id/my_toolbar"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewUpdateDates"
+            android:text="@string/settings_updatecrimes"
+            android:textSize="18dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewUpdateDatesTagline"
+            android:text="@string/settings_updatecrimestagline"
+            android:layout_below="@+id/textViewUpdateDates"
+            android:layout_marginTop="5dp"
+            android:textStyle="normal|italic" />
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_sync_black_24dp"
+            android:layout_alignParentRight="true"
+            android:scaleType="fitXY"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/settingsRelativeLayoutOne"
+        android:id="@+id/settingsRelativeLayoutTwo"
+        android:layout_marginTop="40dp"
+        android:padding="10dp"
+
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewClearHistory"
+            android:text="@string/settings_clearhistory"
+            android:textSize="18dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewClearHistoryTagline"
+            android:layout_below="@+id/textViewClearHistory"
+            android:layout_marginTop="5dp"
+            android:text="@string/settings_clearhistorytagline"
+            android:textStyle="normal|italic" />
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_delete_forever_black_24dp"
+            android:layout_alignParentRight="true"
+            android:scaleType="fitXY"
+            />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/settingsRelativeLayoutThree"
+        android:layout_below="@+id/settingsRelativeLayoutTwo"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        >
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/wrapperProgressBar"
+        android:layout_below="@+id/settingsRelativeLayoutThree"
+        android:visibility="gone"
+        android:layout_marginTop="20dp"
+        >
+        <include layout="@layout/shared_progressbar"/>
+    </RelativeLayout>
+
+    <include layout="@layout/shared_snackbar"/>
+
+
+</RelativeLayout>

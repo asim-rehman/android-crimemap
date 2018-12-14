@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="#BFFFFFFF"
+        android:padding="10dp"
+        android:id="@+id/include_progressbar"
+        android:visibility="gone"
+        android:alpha="75"
+        >
+
+        <include
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/shared_progressbar"
+            android:layout_below="@+id/btnLocationSearch"
+            />
+
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/filterviewTablet"
+        android:layout_alignRight="@+id/mapView"
+        android:layout_toRightOf="@+id/mapView"
+        android:background="@color/colorPrimary"
+        >
+
+        <include layout="@layout/shared_categories_fitlerview"/>
+
+    </RelativeLayout>
+
+
+    <include layout="@layout/shared_snackbar"/>
+
+</RelativeLayout>

@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Crime Map</string>
+
+
+    <!--WIDGETS-->
+    <string name="btnLocationText">Search</string>
+    <string name="etLocationPlaceHolder">Enter PostCode, Street, City or Town</string>
+    <string name="SelectDate">Select Date</string>
+
+
+    <!-- FRAGMENT TITLES-->
+    <string name="fragment_crime_map_title">Crime Map</string>
+    <string name="fragment_search_title">Search Crimes</string>
+    <string name="fragment_categories_filter_title">Filter Categories</string>
+    <string name="fragment_crime_categoreis_title">Crime Categories</string>
+
+    <!-- DIALOG TITLES-->
+    <string name="location_permissions">Location Permissions</string>
+    <string name="dialog_select_address_title">Select Address</string>
+
+
+    <!--FOR ERRORS-->
+    <string name="NoInternet">No Internet Connection</string>
+    <string name="location_permission_denied">Location permissions were not granted application will now exit.
+        To grant please check in Settings > Apps > Crime Map > Permissions</string>
+
+    <string name="internal_error">Sorry something went wrong there. Try again later</string>
+    <string name="no_location">Cannot get location, is location on?</string>
+
+    <!--GLOBAL SETTINGS (SHARED PREFS)-->
+    <string name="LastUpdated">LastUpdated</string>
+    <string name="CacheEnabled">CacheEnabled</string>
+
+
+    <!--GENERIC MESSAGES-->
+    <string name="no_addresses_found">No addresses were found</string>
+    <string name="select_address">Please select an address</string>
+    <string name="title_activity_settings">Settings</string>
+
+
+    <!--SETTINGS ACTIVITY-->
+    <string name="settings_updatecrimes">Update Crime Dates</string>
+    <string name="settings_updatecrimestagline">Gets the last time the police records were updated</string>
+    <string name="settings_clearhistory">Clear History</string>
+    <string name="settings_clearhistorytagline">Clear your search history. Note this will also delete saved crimes</string>
+    <string name="settings_CacheTitle">Caching</string>
+    <string name="settings_cacheEnabled">Caching is on. Turning it off will speed up download times, but will use more data</string>
+
+    <string name="settings_cacheDisabled">Caching is off, caching will save data, but will take longer to process data</string>
+
+
+</resources>

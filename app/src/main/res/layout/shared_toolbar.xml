@@ -1,0 +1,15 @@
+<android.support.v7.widget.Toolbar
+    android:id="@+id/my_toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="?attr/colorPrimary"
+    android:elevation="4dp"
+    android:title="@string/app_name"
+    android:theme="@style/MyActionBar"
+    app:popupTheme="@style/MyActionBar"
+    app:titleTextColor="@color/colorWhite"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" />
+
+
+

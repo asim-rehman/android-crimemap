@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Begin navigation drawer-->
+    <string-array name="NavigationDrawerMenuItems">
+        <item>Search Crimes</item>
+        <item>Crime Categories</item>
+        <item>Settings</item>
+    </string-array>
+
+</resources>

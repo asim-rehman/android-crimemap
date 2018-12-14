@@ -19,8 +19,8 @@ This project was part of a module i studied at university, it's here for referen
 
 <h3>THIRD PARTY LIBRARIES</h3>
 
-SUGARORM https://github.com/chennaione/sugar
-JODATIME https://www.joda.org/joda-time/
+- SUGARORM https://github.com/chennaione/sugar
+- JODATIME https://www.joda.org/joda-time/
 
 
 MIT LICENSE.

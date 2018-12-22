@@ -5,7 +5,7 @@ An android application which allows you to see crimes in a certain area and plot
 This app uses API from police.uk
 https://data.police.uk/docs/
 
-This project was part of a module i studied at university, it's here for reference for students/lecturers or anyone else. 
+This project was part of a module I studied at university, it's here for reference for students/lecturers or anyone else. 
 
 
 <h3>INSTRUCTIONS</h3>
